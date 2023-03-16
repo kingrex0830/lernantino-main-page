@@ -8,7 +8,7 @@ Module 2 Challenge for uToronto Coding Bootcamp. This site is designed as a port
 
 ## Installation
 
-Simply follow the link here:
+Simply follow the link here: https://kingrex0830.github.io/lernantino-main-page/
 
 ## Credits
 
