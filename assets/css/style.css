@@ -1,14 +1,224 @@
-.header {
-    height:80px;
-    background-color:blue;
-    text-align:center;
-    margin-right: 20px;
-    margin-left: 20px;
+/* GLOBALS */
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-#name {
+h1 {
+    font-size:30px;
+}
+
+h2 {
+    font-size:24px;
+}
+
+h3 {
+    font-size:20px;
+}
+
+p {
+    font-size:16px;
+}
+
+a {
+    font-size:16x;
+    text-decoration:none;
+}
+
+.page-container {
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    margin:0 auto;
+}
+
+.header {
+    background-color:blue;
+    width:90%;
+}
+
+.header__container {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:100%;
+    margin:0 auto;
+    height:100%;
+    flex-direction:column;
+}
+
+.links a {
+    color:black;
+    margin-left:30px;
+}
+
+#name, .links {
+    padding: 2px;
+}
+
+.main {
+    width:90%;
+    margin:0 auto;
+}
+
+.pic-container {
+    display:flex;
+    justify-content:center;
+    margin:20px;
+}
+
+#pic {
+    width:100%;
+    max-width:500px;
+}
+
+.main-container {
+    display:flex;
+    flex-direction:column;
+    max-width:1600px;
+    margin:0 auto;
+}
+
+@media only screen and (min-width:1400px) {
+    .main-container {
+        flex-direction:row;
+        justify-content:space-evenly;
+        align-items:center;
+    }
+}
+
+.about-main {
+    padding:10px;
+    width:100%;
+    max-width:600px;
+}
+
+.resume {
+    transition:0.5s;
+}
+
+.resume img {
+    width:100%;
+}
+
+.work-main {
+    /* max-width:1400px; */
+    margin:0 auto;
+    width:100%;
+}
+
+.work-1 {
+    background-color:#2a607c;
+    margin:20px;
+    transition:0.5s;
+    max-width:900px;
+    flex-direction:center;
+}
+
+.work-1 p {
+    color:white;
+    text-align:center;
+    font-size:50px;
+}
+
+.work-1 img {
+    margin-top:30px;
+}
+
+.work-2 {
+    margin:20px;
+    transition:0.5s;
+    max-width:650px;
+}
+
+.work-3 {
+    background-color:black;
+    text-align:center;
+    padding-bottom:30px;
+    margin:20px;
+    transition:0.5s;
+    max-width:650px;
+}
+
+.work-3 p {
+    color:gray;
+    font-size:40px;
+}
+
+
+.work-1 img, .work-2 img, .work-3 img {
+    width:100%;
+}
+
+.work-1:hover, .work-2:hover, .work-3:hover, .resume:hover {
+    transition:0.5s;
+    transform:scale(0.95);
+}
+
+@media only screen and (min-width:1400px) {
+    .work-main div {
+        display:inline-block;
+    }
+}
+
+footer {
+    width:90%;
+}
+
+.contact p {
+    font-size:12px;
+    padding:5px;
+}
+@media only screen and (min-width:550px) {
+    .contact-links p {
+        width:100%;
+        display:inline;
+    }
+    .links a {
+        font-size:20px;
+    }
+}
+
+@media only screen and (min-width:850px) {
+    .contact-links p {
+        width:100%;
+        display:inline;
+        font-size:20px;
+    }
+    .links a {
+        font-size:25px;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    .contact-links p {
+        width:100%;
+        display:inline;
+        font-size:25px;
+    }
+    .contact h2 {
+        font-size:40px;
+        margin-bottom:5px;
+    }
+    #name {
+        font-size:40px;
+    }
+    .links a {
+        font-size:35px;
+    }
+}
+
+.contact {
+    display:flex;
+    flex-direction:column;
+    background-color:blue;
+    align-items:center;
+    height:100px;
+    justify-content:center;
+}
+
+/* #name {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size:75px;
+    font-size:30px;
     margin-top:10px;
     margin-left:20px;
 }
@@ -25,7 +235,7 @@
     padding:5px;
     padding-right:20px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size:30px;
+    font-size:10px;
     text-decoration:none;
     color:black;
     top:0px;
@@ -46,17 +256,17 @@
     position:absolute;
     left:25px;
     top:28px;
-    font-size:40px;
+    font-size:10px;
     text-align:center;
 }
 
 .contact h2 {
-    font-size:15px;
+    font-size:10px;
     text-align:center;
     margin:5px;
     display:block;
-}
-
+} */
+/*
 #pic {
     position:absolute;
     display: block;
@@ -230,4 +440,4 @@ a:active {
     top:1080px;
     position:absolute;
     text-align:center;
-}
+} */

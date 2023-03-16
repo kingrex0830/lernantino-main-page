@@ -9,68 +9,81 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <header class="header">
+    <div class="page-container">
 
-        <h1 id="name">Yoshi Cea</h1>
+        <header class="header">
+            <div class="header__container">
+                
+                <h1 id="name">Yoshi Cea</h1>
         
-        <nav class="links">
-            <a id="about" href="#about-main">ABOUT</a>
-            <a id="resume" href="">RESUME</a>
-            <a id="work" href="">WORK</a>
-        </nav>
-
-        <h1 id="contact-main">Contact me:</h1>
-
-        <div class="contact">
-            <h2>E-Mail: ycea0830@yahoo.com</h2>
-            <h2>GitHub: <a href=https://github.com/kingrex0830 target="_blank">kingrex0830</a></h2>
-            <h2>Discord: King Rex#5015</h2>
-        </div>
-
-    </header>
-    
-    <main class="main">
-
-        <img id="pic" src="./assets/images/58b2ef55849539.5995a60554bb8.png" alt="Picture of myself">
+                <nav class="links">
+                    <a id="about" href="#about-main">ABOUT</a>
+                    <a id="resume" href="#resume-main">RESUME</a>
+                    <a id="work" href="#work-main">WORK</a>
+                    <a id="contact" href="#contact-main">CONTACT</a>
+                </nav>
         
-        <div class="about-main">
-            <h1>A Little Bit About Myself</h1>
-            <h2>Hi! My name's Yoshi Cea, and I'm a 19 year old uToronto Coding Bootcamp student.
-                I've been extremely passionate about computers and writing fiction since I was very young,
-                and I've made this site to just show you what I can do. Hope to hear from you!
-            </h2>
-            <h3>Here's a bit of what I've made.</h2>
-        </div>
+            </div>
+        </header>
 
-        <div class="resume">
-            <h1>Click here to download my resume!</h1>
-            <a href="./assets/images/Resume.pdf"><img src="./assets/images/istockphoto-1138817616-612x612.jpg"></a>
-        </div>
+        <main class="main">
 
-
-        <div class="work-main">
-            <div class="work-1">
-                <a href="">
-                    <img src="./assets/images/ldor_logo_final.png">
-                    <h2>(Coming Soon!)</h2>
-                </a>
+            <div class="pic-container">
+                <img id="pic" src="./assets/images/58b2ef55849539.5995a60554bb8.png" alt="Picture of myself">
             </div>
 
-            <div class="work-2">
-                <a href="https://kingrex0830.github.io/horiseon-main-page/" target="_blank">
-                    <img id="banner" src="./assets/images/Screenshot 2023-03-16 091623.png">
-                    <h2>Main Page</h2>
-                    <img id="thumbnail" src="./assets/images/digital-marketing-meeting.jpg">
-                </a>
+            <div class="main-container">
+                <div id="about-main" class="about-main">
+                    <h1>A Little Bit About Myself</h1>
+                    <h2>Hi! My name's Yoshi Cea, and I'm a 19 year old uToronto Coding Bootcamp student.
+                        I've been extremely passionate about computers and writing fiction since I was very young,
+                        and I've made this site to just show you what I can do. Hope to hear from you!
+                    </h2>
+                </div>
+                <div id="resume-main" class="resume">
+                    <h1>Click here to download my resume!</h1>
+                    <a href="./assets/images/Resume.pdf" target="_blank"><img src="./assets/images/istockphoto-1138817616-612x612.jpg"></a>
+                </div>
             </div>
+         
+             <div id="work-main" class="work-main">
 
-            <div class="work-3">
-                <a href="https://kingrex0830.github.io/prework-study-guide/" target="_blank">
-                    <img src="./assets/images/Screenshot 2023-03-15 234150.png">
-                </a>
-            </div>
-        </div>
+                <div class="work-1">
+                    <a href="https://kingrex0830.github.io/horiseon-main-page/" target="_blank">
+                        <img id="banner" src="./assets/images/Screenshot 2023-03-16 091623.png">
+                        <p>Main Page</p>
+                        <img id="thumbnail" src="./assets/images/digital-marketing-meeting.jpg">
+                    </a>
+                </div>
     
-    </main>
+                <div class="work-3">
+                    <a href="https://kingrex0830.github.io/prework-study-guide/" target="_blank">
+                        <img src="./assets/images/Screenshot 2023-03-15 234150.png">
+                    </a>
+                </div>
+
+                <div class="work-3">
+                    <a href="">
+                        <img src="./assets/images/ldor_logo_final.png">
+                        <p>(Coming Soon!)</p>
+                    </a>
+                </div>
+    
+             </div>
+
+        </main>
+
+        <footer>
+            <div class="contact">
+                <h2 id="contact-main">Contact me</h2>
+                <div class="contact-links">
+                    <p>E-Mail: ycea0830@yahoo.com</p>
+                    <p>GitHub: <a href=https://github.com/kingrex0830 target="_blank">kingrex0830</a></p>
+                    <p>Discord: King Rex#5015</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
 </body>
 </html>
