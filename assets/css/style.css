@@ -144,12 +144,16 @@ a {
     font-size:40px;
 }
 
+.work-4, .work-5, .work-6 {
+    transition:0.5s;
+}
 
-.work-1 img, .work-2 img, .work-3 img, .work-4 img, .work-5 img {
+
+.work-1 img, .work-2 img, .work-3 img, .work-4 img, .work-5, .work-6 img {
     width:100%;
 }
 
-.work-1:hover, .work-2:hover, .work-3:hover, .work-4:hover, .work-5:hover, .resume:hover {
+.work-1:hover, .work-2:hover, .work-3:hover, .work-4:hover, .work-5:hover, .work-6:hover, .resume:hover {
     transition:0.5s;
     transform:scale(0.95);
 }
@@ -168,6 +172,7 @@ footer {
     font-size:12px;
     padding:5px;
 }
+
 @media only screen and (min-width:550px) {
     .contact-links p {
         width:100%;
