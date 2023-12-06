@@ -13,7 +13,7 @@ function About() {
     {
       name: 'password-generator',
       description: 'Password Generator',
-      link: "https://github.com/kingrex0830/password-generator",
+      link: "https://kingrex0830.github.io/password-generator/",
       repo: "https://github.com/kingrex0830/password-generator"
     },
     {
